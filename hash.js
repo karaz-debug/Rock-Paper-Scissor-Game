@@ -69,7 +69,7 @@ const playerRound = (round) => {
   const winner = getWinner(playerChoice, computerChoice);
 
   // finally display the round result
-  winners.push(winner); // store every winner for each round played
+  winners.push(winner); 
 
   //   display every round result
   eachRoundResults(playerChoice, computerChoice, winner, round);
